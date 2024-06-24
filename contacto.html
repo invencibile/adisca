@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOTOS DE ADISCA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="fotos.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <h1>Adisca</h1>
+            <p>Descubre el mejor lugar de natación del mundo.</p>
+            <img src="images/logo adisca.jpg" alt="logo de Adisca">
+        </section>
+    <hr>
+        <section id="informacion">
+            <p>Si desea comunicarse con nosotros por vía telefónica, hágalo a través del <span><b>2923-665544</b></span></p>
+            <p>Nuestra dirección es <span><b>calle 7 nro 321 </b></span>de la localidad de Huanguelén.</p>
+            <p>El correo electrónico es <span><b>info@adisca.com.ar</b></span></p>
+            <p>Si desea enviar una consulta por este medio, complete el siguiente formulario</p>
+        </section>
+    <hr>
+    <h1>FORMULARIO DE CONSULTAS</h1>
+    <form action="https://formsubmit.co/your@email.com" method="POST""
+    enctype="application/-www-form-urlencoded"
+    autocomplete="off">
+    <label for="NOMBRE COMPLETO">Nombre completo</label>
+  
+    <input type="text" name="NOMBRE" id="NOMBRE" placeholder="Ingrese su nombre" minlength="5" maxlength="70">
+    <label for="TELÉFONO">Número de teléfono</label>
+    <input type="number" name="TELEFONO" id="TELEFONO" placeholder="Ingrese su número de teléfono" minlength="10" maxlength="15">
+    <!-- <label for="FECHA DE NACIMIENTO">nacimiento</label> -->
+    <!-- <input type="date" name="fecha nacimiento" id="fecha" max="2024-05-09"> -->
+    <label for="email">correo electronico</label>
+    <input type="email" name="mail" id="email" placeholder="Ingrese su correo electronico" maxlength="50">
+    <label for="comentarios">Ingrese su consulta</label>
+ <textarea name="comentarios" id="" cols="30" rows="10" maxlength="500"></textarea>   
+ 
+   
+<input type="submit" value="enviar" >
+<input type="reset" value="limpiar">
+</form>
+   
+    <footer>
+        <p>&copy; 2024 Adisca. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
